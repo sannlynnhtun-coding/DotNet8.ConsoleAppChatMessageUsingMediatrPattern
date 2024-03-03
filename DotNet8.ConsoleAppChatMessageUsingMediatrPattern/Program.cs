@@ -29,3 +29,9 @@ await user1.SendMessage("Hello, everyone!");
 
 Console.WriteLine("Sending second message...");
 await user1.SendMessage("Hello again, everyone!");
+
+Console.WriteLine("Sending message...");
+await user2.SendMessage("Hello User 1 & User 3!");
+
+Console.WriteLine("Sending message...");
+await user3.SendMessage("Hello User 1 & User 2!");
