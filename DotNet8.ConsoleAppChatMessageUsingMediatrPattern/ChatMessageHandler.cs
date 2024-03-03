@@ -1,6 +1,4 @@
-﻿using MediatR;
-
-public class ChatMessageHandler : IRequestHandler<ChatMessage>
+﻿public class ChatMessageHandler : IRequestHandler<ChatMessage>
 {
     private readonly UserRegister _userRegister;
 

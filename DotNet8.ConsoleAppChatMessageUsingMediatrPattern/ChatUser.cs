@@ -1,6 +1,4 @@
-﻿using MediatR;
-
-public class ChatUser
+﻿public class ChatUser
 {
     private readonly IMediator _mediator;
 

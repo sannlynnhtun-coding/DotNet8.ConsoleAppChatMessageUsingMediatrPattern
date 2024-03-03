@@ -1,6 +1,4 @@
-﻿using MediatR;
-
-public class ChatMessage : IRequest
+﻿public class ChatMessage : IRequest
 {
     public string Sender { get; }
     public string Content { get; }

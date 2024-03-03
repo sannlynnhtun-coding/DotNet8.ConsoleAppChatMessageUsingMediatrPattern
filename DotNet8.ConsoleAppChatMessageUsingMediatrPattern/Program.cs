@@ -1,7 +1,4 @@
-﻿using MediatR;
-using Microsoft.Extensions.DependencyInjection;
-
-Console.WriteLine("Creating services...");
+﻿Console.WriteLine("Creating services...");
 
 var services = new ServiceCollection();
 services.AddScoped<ChatMessageHandler>();
