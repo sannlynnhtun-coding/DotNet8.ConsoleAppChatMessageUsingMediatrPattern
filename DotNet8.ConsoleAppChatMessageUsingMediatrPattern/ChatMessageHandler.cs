@@ -1,4 +1,6 @@
-﻿public class ChatMessageHandler : IRequestHandler<ChatMessage>
+﻿namespace DotNet8.ConsoleAppChatMessageUsingMediatrPattern;
+
+public class ChatMessageHandler : IRequestHandler<ChatMessage>
 {
     private readonly UserRegister _userRegister;
 

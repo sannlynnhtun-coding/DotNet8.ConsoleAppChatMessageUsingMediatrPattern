@@ -1,4 +1,6 @@
-﻿public class ChatUser
+﻿namespace DotNet8.ConsoleAppChatMessageUsingMediatrPattern;
+
+public class ChatUser
 {
     private readonly IMediator _mediator;
 

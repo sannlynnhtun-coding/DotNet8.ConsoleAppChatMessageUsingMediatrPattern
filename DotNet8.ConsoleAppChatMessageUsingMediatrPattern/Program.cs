@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Creating services...");
+﻿using DotNet8.ConsoleAppChatMessageUsingMediatrPattern;
+
+Console.WriteLine("Creating services...");
 
 var services = new ServiceCollection();
 services.AddScoped<ChatMessageHandler>();

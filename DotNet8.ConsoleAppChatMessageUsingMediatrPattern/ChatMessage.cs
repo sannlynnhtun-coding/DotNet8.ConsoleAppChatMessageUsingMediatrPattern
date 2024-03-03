@@ -1,4 +1,6 @@
-﻿public class ChatMessage : IRequest
+﻿namespace DotNet8.ConsoleAppChatMessageUsingMediatrPattern;
+
+public class ChatMessage : IRequest
 {
     public string Sender { get; }
     public string Content { get; }

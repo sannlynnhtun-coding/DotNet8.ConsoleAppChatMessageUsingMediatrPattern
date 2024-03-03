@@ -1,4 +1,6 @@
-﻿public class UserRegister
+﻿namespace DotNet8.ConsoleAppChatMessageUsingMediatrPattern;
+
+public class UserRegister
 {
     private readonly List<ChatUser> _users;
 
