@@ -1,13 +1,7 @@
 ﻿namespace DotNet8.ConsoleAppChatMessageUsingMediatrPattern;
 
-public class ChatMessage : IRequest
+public class ChatMessage(string sender, string content) : IRequest
 {
-    public string Sender { get; }
-    public string Content { get; }
-
-    public ChatMessage(string sender, string content)
-    {
-        Sender = sender;
-        Content = content;
-    }
+    public string Sender { get; } = sender;
+    public string Content { get; } = content;
 }

@@ -2,12 +2,7 @@
 
 public class UserRegister
 {
-    private readonly List<ChatUser> _users;
-
-    public UserRegister()
-    {
-        _users = new List<ChatUser>();
-    }
+    private readonly List<ChatUser> _users = new();
 
     public IReadOnlyList<ChatUser> Users => _users;
 

@@ -1,20 +1,12 @@
 ﻿namespace DotNet8.ConsoleAppChatMessageUsingMediatrPattern;
 
-public class ChatUser
+public class ChatUser(IMediator mediator, string name)
 {
-    private readonly IMediator _mediator;
-
-    public string Name { get; }
-
-    public ChatUser(IMediator mediator, string name)
-    {
-        _mediator = mediator;
-        this.Name = name;
-    }
+    public string Name { get; } = name;
 
     public async Task SendMessage(string message)
     {
-        await _mediator.Send(new ChatMessage(Name, message));
+        await mediator.Send(new ChatMessage(Name, message));
     }
 
     public void ReceiveMessage(string message, string sender)
