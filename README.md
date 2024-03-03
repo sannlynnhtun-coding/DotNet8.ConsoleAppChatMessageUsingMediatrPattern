@@ -1,0 +1,1 @@
+Reference => https://www.devleader.ca/2023/11/20/exploring-examples-of-the-mediator-pattern-in-c/
